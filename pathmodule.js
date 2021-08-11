@@ -1,8 +1,8 @@
 //Here we will be using  Path module
 //this module is a core module of JS
 
-const { copyFileSync } = require('fs');
-const { delimiter } = require('path');
+// const { copyFileSync } = require('fs');
+// const { delimiter } = require('path');
 const path = require('path'); 
 
 const myPath = '/home/bs584/Node JS/module1.js';

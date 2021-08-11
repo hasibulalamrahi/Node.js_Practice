@@ -19,7 +19,7 @@ const fs = require('fs');
 const data = fs.readFile('myfile.txt',(err,data)=>{
     console.log(data.toString());
 });
-console.log("Hi");
+console.log("Hi"); //Just to demonstrate that this thing works asynchronously
 
 
  
