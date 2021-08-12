@@ -4,3 +4,4 @@ ourReadStream.on('data',(data)=>{
     console.log(data);   //we can also use  .toString() incase of using 'utf-8'
 });
 console.log('hello');
+// console.log(fs.createReadStream(`${__dirname}`));
