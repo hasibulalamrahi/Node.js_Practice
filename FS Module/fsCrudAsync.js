@@ -37,11 +37,11 @@ fs.rmdir('./randomFolder/',(err)=>{                              //removing the 
 //     console.log('The file is opened ');
 // })
 
-fs.exists('./myFolder/myBio.txt',(result)=>{
-   if(result){
-       console.log("The file exists");
-   }    
-   else{
-    console.log('The file does not exists ');
-   } 
-});
+// fs.exists('./myFolder/myBio.txt',(result)=>{
+//    if(result){
+//        console.log("The file exists");
+//    }    
+//    else{
+//     console.log('The file does not exists ');
+//    } 
+// });
